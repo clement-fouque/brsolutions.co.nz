@@ -4,7 +4,8 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/ui',
-    '@nuxt/eslint'
+    '@nuxt/eslint',
+    '@nuxt/image'
   ],
 
   css: ['~/assets/css/main.css'],
@@ -13,5 +14,9 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
-  compatibilityDate: '2024-11-27'
+  compatibilityDate: '2024-11-27',
+
+  devServer: {
+    port: 4000
+  }
 })
