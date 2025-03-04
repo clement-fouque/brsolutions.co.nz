@@ -1,5 +1,9 @@
 <template>
   <UApp>
-    <NuxtPage />
+    <AppHeader />
+    <AppHero />
+    <AppTestimonials />
+    <AppFeatures />
+    <AppFooter />
   </UApp>
 </template>
